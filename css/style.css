@@ -1,0 +1,109 @@
+/* General CSS */
+body{
+  padding-top: 100px;
+  font-family: Aria, sans-serif;
+  color:#333;
+}
+
+h1{
+  font-size:36px;
+}
+
+h2{
+  font-size: 30px;
+}
+
+h1,h2{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+
+p{
+  font-size: 14px;
+  line-height: 21px;
+  margin-bottom: 20px;
+}
+
+.mainContainer{
+  width: 100%;
+  margin: 0 auto;
+}
+.singleRow{
+  width: 100%;
+}
+
+.clear{
+  clear: both;
+}
+
+/* header */
+.colLeft{
+  width : 63%;
+}
+
+.colLeft img{
+  width: 100%;
+  border-radius:6px;
+}
+.colRight{
+  width: 32%;
+}
+
+.colLeft,.colRight{
+  float: left;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.btn{
+  font-size: 18px;
+  line-height: 28px;
+  padding: 10px 16px;
+  border-radius: 6px;
+  color: #fff;
+  background-color: #337ab7;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+hr{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+
+
+/*  features */
+.col1, .col2, .col3{
+    width: 30%;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+}
+
+.btnInfo{
+  display: inline-block;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: normal;
+  cursor: pointer;
+  border: 1px solid #CECECE;
+  border-radius: 4px;
+  text-decoration: none;
+  color :#333;
+}
+
+.btnInfo:hover{
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+
+/* Footer */
+.colFooter{
+  padding: 30px 0;
+}
